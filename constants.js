@@ -73,30 +73,30 @@ export const tracks: Tracks = {
   "TECHNICAL_SCOPE": {
     "displayName": "Technical Scope",
     "category": "A",
-    "description": "Develops expertise in native mobile platform engineering, such as iOS or Android",
+    "description": "Demonstrates ability to execute a project or feature, including research, test, execution, and release.",
     "milestones": [{
-      "summary": "Works effectively within established iOS or Android architectures, following current best practices",
+      "summary": "Can build a small feature or part of a feature with the guidance of a peer or leadership",
       "signals": [
-        "Delivers features requiring simple local modifications",
-        "Adds simple actions that call server endpoints",
-        "Reuses existing components appropriately",
+        "Researches, tests, and closes bugs with minimal guidance",
+        "Builds understanding of the RFC process",
+        "Participates in code reviews"
       ],
       "examples": [
-        "Added existing button to a different iOS surface",
-        "Add follow button for publications on Android",
-        "Fetched and displayed a new stream, using existing stream item styles",
+        "Deploys a bugfix independently",
+        "Reads and participates on relevant RFCs",
+        "Plans and implements a small feature (insert example)",
       ],
     }, {
-      "summary": "Develops new instances of existing architecture, or minor improvements to existing architecture",
+      "summary": "Can build a medium to large project with guidance from peers or leadership",
       "signals": [
-        "Defines new useful and appropriate proto-generated objects",
-        "Creates simple new activities on Android",
-        "Migrates code from old patterns to new patterns",
+        "Designs a small feature or part of a feature",
+        "Consistently performs thorough and accurate code reviews",
+        "Can author a RFC with guidance and support from other engineers",
       ],
       "examples": [
-        "Upgraded SDWebImage to a new major version",
-        "Added support for rendering a new type of stream item",
-        "Prototyped a simple new feature quickly",
+        "Writes an RFC for a new feature and thoughtfully responds to feedback",
+        "Researches, plans, and organizes a new feature (some example of a feature)",
+        "Contributes feedback on a PR that deviates from set coding standards",
       ],
     }, {
       "summary": "Designs major new features and demonstrates a nuanced understanding of mobile platform constraints",
