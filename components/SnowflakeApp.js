@@ -49,50 +49,32 @@ const emptyState = (): SnowflakeAppState => {
     name: '',
     title: '',
     milestoneByTrack: {
-      'MOBILE': 0,
-      'WEB_CLIENT': 0,
-      'FOUNDATIONS': 0,
-      'SERVERS': 0,
-      'PROJECT_MANAGEMENT': 0,
-      'COMMUNICATION': 0,
-      'CRAFT': 0,
-      'INITIATIVE': 0,
-      'CAREER_DEVELOPMENT': 0,
-      'ORG_DESIGN': 0,
-      'WELLBEING': 0,
-      'ACCOMPLISHMENT': 0,
-      'MENTORSHIP': 0,
-      'EVANGELISM': 0,
-      'RECRUITING': 0,
-      'COMMUNITY': 0
+      'TECHNICAL_SCOPE': 0,
+      'DELIVERY': 0,
+      'SYSTEMS_THINKING': 0,
+      'COLLABORATION_COMMUNICATION': 0,
+      'MENTORING': 0,
+      'LEARNING_MINDSET': 0,
+      'VISION': 0
     },
-    focusedTrackId: 'MOBILE'
+    focusedTrackId: 'TECHNICAL_SCOPE'
   }
 }
 
 const defaultState = (): SnowflakeAppState => {
   return {
-    name: 'Cersei Lannister',
+    name: 'A cool person',
     title: 'Staff Engineer',
     milestoneByTrack: {
-      'MOBILE': 1,
-      'WEB_CLIENT': 2,
-      'FOUNDATIONS': 3,
-      'SERVERS': 2,
-      'PROJECT_MANAGEMENT': 4,
-      'COMMUNICATION': 1,
-      'CRAFT': 1,
-      'INITIATIVE': 4,
-      'CAREER_DEVELOPMENT': 3,
-      'ORG_DESIGN': 2,
-      'WELLBEING': 0,
-      'ACCOMPLISHMENT': 4,
-      'MENTORSHIP': 2,
-      'EVANGELISM': 2,
-      'RECRUITING': 3,
-      'COMMUNITY': 0
+      'TECHNICAL_SCOPE': 0,
+      'DELIVERY': 0,
+      'SYSTEMS_THINKING': 0,
+      'COLLABORATION_COMMUNICATION': 0,
+      'MENTORING': 0,
+      'LEARNING_MINDSET': 0,
+      'VISION': 0
     },
-    focusedTrackId: 'MOBILE'
+    focusedTrackId: 'TECHNICAL_SCOPE'
   }
 }
 
